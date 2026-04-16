@@ -1,0 +1,51 @@
+# =========================
+
+# EDORAS LANDING - GITIGNORE
+
+# =========================
+
+# 🚫 Platform (asla dahil etme)
+
+kocluk/
+
+# 🔐 Secrets / Config
+
+.env
+.env.*
+config.local.*
+secrets.json
+
+# 📄 Log dosyaları
+
+*.log
+logs/
+error_log
+
+# 📦 Arşiv / backup
+
+*.zip
+*.tar
+*.gz
+*.rar
+
+# 🗑 Cache / temp
+
+cache/
+tmp/
+.temp/
+
+# 💻 OS dosyaları
+
+.DS_Store
+Thumbs.db
+
+# 🛠 Editör dosyaları
+
+.vscode/
+.idea/
+
+# 🧪 Test / gereksiz
+
+*.bak
+*.swp
+*~
