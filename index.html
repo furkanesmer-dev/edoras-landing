@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="tr">
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Edoras Akademi">
 	<meta name="description" content="Hareketin, Gücün ve Enerjinin Buluşma Noktası">
+
+	<title>Edoras Akademi</title>
+
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/edoras_favicon.png">
 
+	<!-- Preload hero image -->
+	<link rel="preload" as="image" href="images/slider/main_salon.webp">
 
 	<!-- Font Imports -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,23 +24,15 @@
 	<!-- Core Style -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Font Icons -->
+	<!-- Font Icons (Font Awesome, Bootstrap Icons, Unicons — served locally) -->
 	<link rel="stylesheet" href="css/font-icons.css">
 	<link rel="stylesheet" href="css/et-line.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-
-	<!-- Font Awesome (GERÇEK GYM ICONLARI) -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 	<!-- One Page Module Specific Stylesheet -->
 	<link rel="stylesheet" href="css/onepage.css">
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Edoras Akademi</title>
 
 </head>
 
@@ -94,7 +92,7 @@
 
 		<section id="slider" class="slider-element slider-parallax dark min-vh-100 include-header">
 
-			<div class="slider-inner" style="background-image: url('images/slider/main_salon.jpg'); background-size: cover; background-position: center center;">
+			<div class="slider-inner" style="background-image: url('images/slider/main_salon.webp'); background-size: cover; background-position: center center;">
 
 				<div class="vertical-middle slider-element-fade">
 					<div class="container text-center py-5">
@@ -141,7 +139,7 @@
 							<div class="col-md-4 mb-5">
 								<div class="team">
 									<div class="team-image">
-										<img src="images/team/orcun_alan.jpg" alt="John Doe">
+										<img src="images/team/orcun_alan.webp" alt="Orçun Alan" loading="lazy">
 									</div>
 									<div class="team-desc team-desc-bg">
 										<div class="team-title"><h4>Orçun Alan</h4><span>Kişisel Eğitmen</span></div>
@@ -152,7 +150,7 @@
 							<div class="col-md-4 mb-5">
 								<div class="team">
 									<div class="team-image">
-										<img src="images/team/ceren_demir.jpg" alt="Josh Clark">
+										<img src="images/team/ceren_demir.webp" alt="Ceren Demir Sarı" loading="lazy">
 									</div>
 									<div class="team-desc team-desc-bg">
 										<div class="team-title"><h4>Ceren Demir Sarı</h4><span>Pilates Eğitmeni</span></div>
@@ -163,7 +161,7 @@
 							<div class="col-md-4 mb-5">
 								<div class="team">
 									<div class="team-image">
-										<img src="images/team/ozan_acar.jpg" alt="Mary Jane">
+										<img src="images/team/ozan_acar.webp" alt="Ozan Barış Acar" loading="lazy">
 									</div>
 									<div class="team-desc team-desc-bg">
 										<div class="team-title"><h4>Ozan Barış Acar</h4><span>Kişisel Eğitmen</span></div>
@@ -183,7 +181,7 @@
 						<article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_1.webp">
+									<img src="images/salon/salon_1.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
@@ -191,7 +189,7 @@
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_2.webp">
+									<img src="images/salon/salon_2.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
@@ -199,7 +197,7 @@
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_3.webp">
+									<img src="images/salon/salon_3.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
@@ -207,7 +205,7 @@
 						<article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_4.webp">
+									<img src="images/salon/salon_4.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
@@ -215,7 +213,7 @@
 						<article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_5.webp">
+									<img src="images/salon/salon_5.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
@@ -223,7 +221,7 @@
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_6.webp">
+									<img src="images/salon/salon_6.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
@@ -231,7 +229,7 @@
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="images/salon/salon_7.webp">
+									<img src="images/salon/salon_7.webp" alt="Edoras Akademi Salon" loading="lazy">
 								</div>
 							</div>
 						</article>
