@@ -1,0 +1,21 @@
+
+
+/* Mobilde slider tam ekran olsun  */
+@media (max-width: 991.98px) {
+  #slider.slider-element {
+    min-height: 100vh !important;
+    min-height: 100svh !important; 
+  }
+
+  #slider .slider-inner {
+    min-height: 100vh !important;
+    min-height: 100svh !important;
+  }
+
+ 
+  #slider .vertical-middle {
+    min-height: 100vh !important;
+    min-height: 100svh !important;
+  }
+}
+
